@@ -1,4 +1,5 @@
-window.CUSDIS = {};
+if (document.body.classList.contains("post")) {
+  window.CUSDIS = {};
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://cusdis.com";
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`;
@@ -123,3 +124,4 @@ function initial() {
 }
 window.CUSDIS.initial = initial;
 initial();
+}
