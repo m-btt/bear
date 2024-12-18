@@ -3,7 +3,7 @@ if (document.body.classList.contains("post")) {
     .querySelector(".tags")
     .before(
       Object.assign(
-        document.createElement("div"), {
+        document.createElement("p"), {
         className: "cusdis_thread",
         innerHTML: `<div id="cusdis_thread"
   data-host="https://cusdis.com"
