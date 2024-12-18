@@ -1,4 +1,4 @@
-if (document.body.classList.contains("post")) {
+if (document.querySelector("body").classList.contains("post")) {
   window.CUSDIS = {};
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://cusdis.com";
