@@ -1,13 +1,11 @@
-if (document.querySelector("body").classList.contains("post")) {
-  window.CUSDIS = {};
+window.CUSDIS = {};
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://cusdis.com";
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`;
-  const cssPath = `https://github.com/m-btt/bear/blob/main/cusdis_mod.css`;
+  const cssPath = `${host}/js/style.css`;
   return `<!DOCTYPE html>
 <html>
   <head>
-  <style>.dark {background: #000000;}</style>
     <link rel="stylesheet" href="${cssPath}">
     <base target="_parent" />
     <link>
@@ -125,4 +123,3 @@ function initial() {
 }
 window.CUSDIS.initial = initial;
 initial();
-}
