@@ -7,6 +7,7 @@ const makeIframeContent = (target) => {
   return `<!DOCTYPE html>
 <html>
   <head>
+  <style>.dark {background: #000000;}</style>
     <link rel="stylesheet" href="${cssPath}">
     <base target="_parent" />
     <link>
