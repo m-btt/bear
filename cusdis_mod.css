@@ -37,7 +37,7 @@ small{
     font-size:80%
 }
 sub,sup{
-    font-size:75%;
+    font-size:90%;
     line-height:0;
     position:relative;
     vertical-align:baseline
@@ -149,9 +149,9 @@ a{
     text-decoration:inherit
 }
 button,input,optgroup,select,textarea{
-    padding:0;
-    line-height:inherit;
-    color:inherit
+ #   padding:0;
+ #  line-height:inherit;
+ #  color:inherit
 }
 pre,code,kbd,samp{
     font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace
@@ -276,10 +276,10 @@ img,video{
     align-items:center
 }
 .gap-4{
-    gap:1rem
+    gap:1.3rem
 }
 .rounded{
-    border-radius:.25rem
+    border-radius:.4rem
 }
 .border,.dark .dark\:border{
     border-width:1px
