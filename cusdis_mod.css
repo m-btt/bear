@@ -1,6 +1,6 @@
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */*
-,:before,:after{
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize *
+/*,:before,:after{
     box-sizing:border-box
 }
 html{
@@ -37,7 +37,7 @@ small{
     font-size:80%
 }
 sub,sup{
-    font-size:90%;
+    font-size:75%;
     line-height:0;
     position:relative;
     vertical-align:baseline
@@ -149,9 +149,9 @@ a{
     text-decoration:inherit
 }
 button,input,optgroup,select,textarea{
- #   padding:0;
- #  line-height:inherit;
- #  color:inherit
+    padding:0;
+    line-height:inherit;
+    color:inherit
 }
 pre,code,kbd,samp{
     font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace
@@ -276,10 +276,10 @@ img,video{
     align-items:center
 }
 .gap-4{
-    gap:1.3rem
+    gap:1rem
 }
 .rounded{
-    border-radius:.4rem
+    border-radius:.25rem
 }
 .border,.dark .dark\:border{
     border-width:1px
@@ -321,7 +321,7 @@ img,video{
     padding:.5rem
 }
 .px-1{
-    padding-left:.5rem;
+    padding-left:.25rem;
     padding-right:.25rem
 }
 .px-2{
@@ -374,7 +374,7 @@ img,video{
 }
 .text-gray-500{
     --tw-text-opacity: 1;
-    color:rgba(107,114,128,var(--tw-text-opacity))
+    color:rgba(201,212,242,var(--tw-text-opacity))
 }
 .text-gray-900{
     --tw-text-opacity: 1;
@@ -382,11 +382,11 @@ img,video{
 }
 .dark .dark\:text-gray-100{
     --tw-text-opacity: 1;
-    color:rgba(243,244,246,var(--tw-text-opacity))
+    color:rgba(255,204,0,var(--tw-text-opacity))
 }
 .dark .dark\:text-gray-200{
     --tw-text-opacity: 1;
-    color:rgba(229,231,235,var(--tw-text-opacity))
+    color:rgba(245,245,245,var(--tw-text-opacity))
 }
 .dark .dark\:text-gray-400{
     --tw-text-opacity: 1;
@@ -423,4 +423,3 @@ blockquote{
 blockquote{
     padding:.5rem 1rem
 }
- 
